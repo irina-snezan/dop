@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Button} from './components/Button';
 
+
 type getType = {
     'userId': number
     'id': number
@@ -38,5 +39,4 @@ function App() {
         </div>
     );
 }
-
 export default App;

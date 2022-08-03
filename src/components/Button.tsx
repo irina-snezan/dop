@@ -3,6 +3,7 @@ type ButtonTypeProps={
     callBack:()=>void
 }
 
+
 export const Button=(props:ButtonTypeProps)=>{
     const onClickHandler=()=>{
         props.callBack()
@@ -11,3 +12,5 @@ export const Button=(props:ButtonTypeProps)=>{
         <button onClick={onClickHandler}>{props.nickName}</button>
     )
 }
+
+
